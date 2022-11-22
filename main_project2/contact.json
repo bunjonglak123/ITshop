@@ -1,0 +1,39 @@
+{
+    "features": [
+        {
+            "Name": "ITshop-bangkok",
+            "Address": "11-bangkok",
+            "Contact": "0123456789"
+        },
+        {
+            "Name": "ITshop-Befsey",
+            "Address": "11-Befsey",
+            "Contact": "0123456789"
+        },
+        {
+            "Name": "ITshop-Yliston",
+            "Address": "11-Yliston",
+            "Contact": "0123456789"
+        },
+        {
+            "Name": "ITshop-Privacity",
+            "Address": "11-Privacity",
+            "Contact": "0123456789"
+        },
+        {
+            "Name": "ITshop-Edgetown",
+            "Address": "11-Edgetown",
+            "Contact": "0123456789"
+        },
+        {
+            "Name": "ITshop-Destinus",
+            "Address": "11-Destinus",
+            "Contact": "0123456789"
+        },
+        {
+            "Name": "ITshop-ConcreteJungle",
+            "Address": "11-ConcreteJungle",
+            "Contact": "0123456789"
+        }
+    ]
+}

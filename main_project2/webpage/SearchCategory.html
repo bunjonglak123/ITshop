@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script>
+        var xmlHttp;
+
+        function send() {
+            xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = showResult;
+
+            var keyword = document.getElementById("keyword").value;
+
+            var url = "SearchCategory.php?keyword=" + keyword;
+
+            xmlHttp.open("GET", url, true);
+            xmlHttp.send();
+        }
+        function showResult() {
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+                document.getElementById("result").innerHTML = xmlHttp.responseText;
+            }
+        }
+    </script>
+    <style>
+        div {
+            display: block;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    ค้นหาชื่อสินค้า<input type="text" id="keyword" onkeyup="send()"><br>
+    <div id="result"></div>
+</body>
+
+</html>
